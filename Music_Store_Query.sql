@@ -1,4 +1,4 @@
---  Question set 1 (Easy)
+--  Question set 1 
 
 -- 1. Who is the senior most employee based on job title?
 
@@ -41,7 +41,7 @@ GROUP BY customer.customer_id
 ORDER BY ITotal DESC
 LIMIT 1
 
---  Question set 2 (Moderate)
+--  Question set 2 
 
 /* 1. Write query to return the email, first name, last name, & Genre of all Rock Music listeners. 
 Return your list ordered alphabetically by email starting with A. */
@@ -77,7 +77,7 @@ WHERE milliseconds > (SELECT AVG(milliseconds) AS avg_track_length
 					FROM track)
 ORDER BY milliseconds DESC
 
---  Question set 3 (Advance)
+--  Question set 3 
 
 /* 1. Find how much amount spent by each customer on artists? Write a query to return customer name, 
 artist name and total spent */
